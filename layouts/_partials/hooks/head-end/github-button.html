@@ -1,1 +1,16 @@
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<style>
+/* Decrease name font size */
+.hb-about-avatar h1,
+.page-body h1:first-of-type {
+  font-size: 2.10rem !important;
+  white-space: nowrap !important;
+}
+
+/* Fallback: target any grid UL inside the about section */
+section ul[style*="grid"],
+section ul.mt-1 {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+</style>

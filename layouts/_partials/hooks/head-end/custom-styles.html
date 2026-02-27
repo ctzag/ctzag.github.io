@@ -1,0 +1,106 @@
+<style>
+/* =============================================================================
+   CUSTOM CSS - DR. CHRISTOS TZAGKARAKIS
+   Fixed version with correct selectors for Hugo Blox v2
+   ============================================================================= */
+
+/* -----------------------------------------------------------------------------
+   1. NAME - Keep on one line with adjusted size to prevent overlap
+   ----------------------------------------------------------------------------- */
+/* Target the name heading in the author profile */
+.hb-section-author h1,
+section[id^="about"] h1,
+.prose h1:first-of-type {
+  white-space: nowrap !important;
+  font-size: 2rem !important;  /* Slightly smaller to fit */
+  line-height: 1.2 !important;
+}
+
+/* If you prefer TWO lines (cleaner look), comment out above and use this: */
+/*
+.hb-section-author h1 {
+  white-space: normal !important;
+}
+*/
+
+/* -----------------------------------------------------------------------------
+   2. EDUCATION - Force 2x2 grid
+   ----------------------------------------------------------------------------- */
+/* Target ALL grid containers and force 2 columns */
+.hb-section-education .grid,
+.hb-section-education > div > div,
+section[id^="education"] .grid,
+[class*="education"] .grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1rem !important;
+}
+
+/* More aggressive: target any 3-column grid inside the main content */
+main .grid.sm\:grid-cols-2.lg\:grid-cols-3,
+.grid.lg\:grid-cols-3 {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+/* Force the education cards container specifically */
+.mt-6.grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+/* -----------------------------------------------------------------------------
+   3. INTERESTS - Force single row
+   ----------------------------------------------------------------------------- */
+/* Target the interests badges container */
+.hb-section-interests .flex,
+section[id^="interests"] .flex,
+[class*="interests"] .flex.flex-wrap {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+}
+
+/* More aggressive selector for flex-wrap containers with gap-2 */
+.mt-4.flex.flex-wrap.gap-2,
+.flex.flex-wrap.justify-center.gap-2 {
+  flex-wrap: nowrap !important;
+}
+
+/* -----------------------------------------------------------------------------
+   4. MOBILE RESPONSIVE
+   ----------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  /* Allow name to wrap on mobile */
+  .hb-section-author h1,
+  section[id^="about"] h1 {
+    white-space: normal !important;
+    font-size: 1.75rem !important;
+  }
+  
+  /* Stack education to 1 column on mobile */
+  .hb-section-education .grid,
+  .mt-6.grid,
+  .grid.lg\:grid-cols-3 {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Allow interests to wrap on mobile */
+  .hb-section-interests .flex,
+  .mt-4.flex.flex-wrap.gap-2 {
+    flex-wrap: wrap !important;
+  }
+}
+
+/* -----------------------------------------------------------------------------
+   5. SUBTLE IMPROVEMENTS
+   ----------------------------------------------------------------------------- */
+/* Education card hover effect */
+.rounded-xl {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.rounded-xl:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+</style>
