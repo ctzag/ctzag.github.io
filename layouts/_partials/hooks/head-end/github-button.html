@@ -2,15 +2,54 @@
 
 <style>
 /* Decrease name font size */
-.hb-about-avatar h1,
-.page-body h1:first-of-type {
-  font-size: 2.10rem !important;
+h1 {
+  font-size: 1.75rem !important;
   white-space: nowrap !important;
 }
 
-/* Fallback: target any grid UL inside the about section */
-section ul[style*="grid"],
-section ul.mt-1 {
-  grid-template-columns: repeat(2, 1fr) !important;
+/* Force education grid to stay at 2 columns on large screens */
+@media (min-width: 1280px) {
+  .mb-16 > .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Justify the biography/summary text */
+.bio-text {
+  text-align: justify !important;
+}
+
+/* Justify prose everywhere (including My Research) */
+.prose {
+  text-align: justify !important;
 }
 </style>
+
+<script>
+// Find "My Research" heading and widen all parent containers
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    var headings = document.querySelectorAll('h2, h3, h4');
+    for (var i = 0; i < headings.length; i++) {
+      if (headings[i].textContent.indexOf('My Research') !== -1) {
+        var el = headings[i];
+        // Walk up 10 levels of parents
+        for (var j = 0; j < 10; j++) {
+          el = el.parentElement;
+          if (!el || el.tagName === 'BODY') break;
+          var cls = el.className || '';
+          // Widen any col-span container
+          if (cls.indexOf('col-span') !== -1) {
+            el.style.setProperty('grid-column', '1 / -1', 'important');
+          }
+          // Remove max-width on prose
+          if (cls.indexOf('prose') !== -1) {
+            el.style.setProperty('max-width', '100%', 'important');
+          }
+        }
+        break;
+      }
+    }
+  }, 500);
+});
+</script>

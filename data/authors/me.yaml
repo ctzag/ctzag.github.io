@@ -7,13 +7,13 @@ name:
   family: Tzagkarakis
   alternate: ''
   pronunciation: ''
-  pronouns: he/him
+  pronouns:
 postnominals:
   - PhD
   #- MIEEE
 status:
   icon: ""
-role: Applied Research Scientist #Senior AI Research Scientist
+role: Research Scientist #Senior AI Research Scientist
 bio: |
   Research scientist specializing in Machine Learning, Signal Processing, and Data Analysis,
   with a solid foundation in Computer Science and Applied Mathematics. Published 25+ papers

@@ -42,13 +42,20 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research centers on machine learning, signal processing, and data-driven analytics, with a particular emphasis on sparse representation theory, compressed sensing, and dictionary learning.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        My earliest research explored statistical approaches to musical genre classification, using generalized Gaussian and alpha-stable models to capture the non-Gaussian characteristics of audio features. This initial exposure to statistical signal processing shaped much of what followed. From there, I moved into multichannel audio coding for immersive environments, developing sinusoidal models for efficient encoding and transmission of spatial audio signals. This led to contributions in compressed sensing applied to audio, demonstrating that sparsity-aware methods could significantly reduce bitrate requirements while preserving perceptual quality.
 
-        Please reach out to collaborate 😃
+        I then focused on robust speaker recognition, developing sparse and low-rank techniques to handle missing or corrupted features in real-world conditions. This included discriminative dictionary learning approaches and matrix completion methods under singular value thresholding frameworks.
+
+        A significant thread of my research has been acoustic source localization, where I designed compressive sensing algorithms for wideband localization and separation. This work resulted in a US patent.
+
+        In more recent years, my academic research broadened into applied AI across several domains. In IoT security, I developed lightweight sparse representation methods for botnet attack detection at the network edge. In social media analysis, I built explainable pipelines for automated bot detection and trend monitoring. In cybersecurity, I designed AI models for threat and vulnerability assessment targeting healthcare IT infrastructures, translating risk indicators into actionable mitigation strategies. In healthcare more broadly, I developed predictive analytics pipelines for mortality prediction in critically-ill patients, combining classical ML with NLP-driven analysis of clinical data. I also explored sound event classification using discriminative dictionary learning, short-term time series forecasting under resource-constrained IoT settings, and probabilistic forecasting methods for electricity price prediction, applying statistical and machine learning techniques to capture the uncertainty and volatility inherent in energy markets.
+
+        Applied & Translational Work: Beyond academic research, a part of my work has been driven by real-world deployment in industrial and startup settings. In social media intelligence, I developed deep learning models for user identification through network traffic analysis and mobile device classification based on behavioral communication patterns. Currently, I am developing deep learning models for breathing pattern analysis in athletes, transforming earbud microphone data into performance insights using audio embeddings and transformer-based architectures. In parallel, I build AI-driven quantitative models for financial time series analysis and real-time decision-making.
     design:
       columns: '1'
+      css_class: 'research-section'
   - block: collection
     id: papers
     content:
