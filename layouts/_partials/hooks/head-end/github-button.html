@@ -19,37 +19,51 @@ h1 {
   text-align: justify !important;
 }
 
-/* Justify prose everywhere (including My Research) */
-.prose {
+/* ===== Research Section Width Fix ===== */
+/* Remove the default prose max-width (65ch) */
+.research-section .max-w-prose {
+  max-width: none !important;
+}
+
+/* Justify research text */
+.research-section .prose {
   text-align: justify !important;
 }
 </style>
 
 <script>
-// Find "My Research" heading and widen all parent containers
-window.addEventListener('load', function() {
-  setTimeout(function() {
-    var headings = document.querySelectorAll('h2, h3, h4');
-    for (var i = 0; i < headings.length; i++) {
-      if (headings[i].textContent.indexOf('My Research') !== -1) {
-        var el = headings[i];
-        // Walk up 10 levels of parents
-        for (var j = 0; j < 10; j++) {
-          el = el.parentElement;
-          if (!el || el.tagName === 'BODY') break;
-          var cls = el.className || '';
-          // Widen any col-span container
-          if (cls.indexOf('col-span') !== -1) {
-            el.style.setProperty('grid-column', '1 / -1', 'important');
-          }
-          // Remove max-width on prose
-          if (cls.indexOf('prose') !== -1) {
-            el.style.setProperty('max-width', '100%', 'important');
-          }
-        }
+// Dynamically match research section width to biography section content
+function matchResearchWidth() {
+  // Find the biography section content container (the grid parent)
+  var bioSection = document.querySelector('#section-resume-biography-3');
+  if (!bioSection) return;
+
+  // Find the innermost content container in the bio section
+  var bioContent = bioSection.querySelector('.grid, .mb-16');
+  if (!bioContent) {
+    // Fallback: find any direct child div that is not the background
+    var children = bioSection.children;
+    for (var i = 0; i < children.length; i++) {
+      if (children[i].className.indexOf('home-section-bg') === -1 && children[i].tagName === 'DIV') {
+        bioContent = children[i];
         break;
       }
     }
-  }, 500);
+  }
+  if (!bioContent) return;
+
+  var bioWidth = bioContent.getBoundingClientRect().width;
+
+  // Apply the same width to research section containers
+  var researchContainers = document.querySelectorAll('.research-section .max-w-prose');
+  for (var j = 0; j < researchContainers.length; j++) {
+    researchContainers[j].style.setProperty('max-width', bioWidth + 'px', 'important');
+  }
+}
+
+// Run on load and on resize
+window.addEventListener('load', function() {
+  setTimeout(matchResearchWidth, 100);
 });
+window.addEventListener('resize', matchResearchWidth);
 </script>
