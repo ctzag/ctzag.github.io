@@ -2,6 +2,11 @@
 title: Patents
 cms_exclude: true
 
+# Hide author profile cards and share icons on every patent page.
+cascade:
+  profile: false
+  share: false
+
 # View.
 view: citation
 

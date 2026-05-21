@@ -1,0 +1,71 @@
+<style>
+/* ============================================================================
+   Publication-page styles (citations, single pages, featured cards).
+   File name kept as citation-styles.html for historical continuity even
+   though the scope is now broader than the citation view alone.
+   ============================================================================ */
+
+/* Justify each citation entry's text and enable hyphenation to reduce
+   word-spacing gaps on justified lines. Targets the wrapper emitted by
+   views/citation.html, shared by the homepage Patents / Recent Publications
+   blocks and the /publications/ section page. Element-plus-double-class
+   selector wins specificity against inherited rules from ancestor contexts. */
+div.pub-list-item.view-citation {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* (#4) Constrain single-page title width to a comfortable measure and
+   center it within the max-w-6xl main wrapper. Targets <h1
+   data-pagefind-meta="title"> emitted by single.html — applies to all
+   single pages (publications, blog, etc.), intentional so titles balance
+   visually with the centered prose body below them. Absolute rem unit
+   (not ch) because `ch` resolves against the current font-size, and at
+   text-4xl 65ch is wider than the container. */
+h1[data-pagefind-meta="title"] {
+  max-width: 42rem;
+  text-align: left;
+  white-space: normal !important;   /* override unscoped `h1 { white-space: nowrap !important }` in github-button.html */
+}
+
+/* (#5) Justify the publication/event metadata grid on individual pages,
+   consistent with citation entries. The labels ("Abstract", "Publication",
+   etc.) are short single-line items so justify has no visible effect on
+   them; only the long abstract value gets visibly justified.
+   Also widens the block from max-w-prose (~520px) to 48rem (~768px) so the
+   value column has real reading width. */
+div.max-w-prose.grid.gap-4 {
+  text-align: justify;
+  hyphens: auto;
+  max-width: 48rem;
+}
+
+/* At md+ breakpoint, tighten the label-to-value gap by replacing the
+   fixed 200px label column with max-content (auto-fit longest label) and
+   reducing the column-gap to 0.75rem. Row-gap inherits from Tailwind's
+   gap-4 (1rem), keeping vertical breathing between rows. Mobile (single
+   column from grid-cols-1) is left untouched. */
+@media (min-width: 768px) {
+  div.max-w-prose.grid.gap-4 {
+    grid-template-columns: max-content auto;
+    column-gap: 0.75rem;
+  }
+}
+
+/* (#6) Reserve consistent vertical space for featured-card titles so they
+   align across the article-grid layout. ~2 lines worth at text-xl
+   leading-tight. Non-destructive: cards with longer titles still grow,
+   short titles get the reserved space — no truncation. */
+h3[id^="card-title-"] {
+  min-height: 3.5rem;
+}
+
+/* (#1 secondary) Visually capitalize the featured-card author span.
+   Works around the humanize fallback in views/card.html, which urlizes the
+   slug before profile lookup so original case can't be recovered from the
+   template path. CSS-only fix — the underlying HTML text node remains
+   lowercase (copy-paste / screen readers / SEO unaffected). */
+span.truncate.max-w-\[9rem\].text-sm {
+  text-transform: capitalize;
+}
+</style>
