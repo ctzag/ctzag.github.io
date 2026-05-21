@@ -14,7 +14,7 @@ publication_short: ''
 abstract: ''
 summary: ''
 tags: []
-featured: false
+featured: true
 links: []
 image:
   caption: ''
