@@ -38,17 +38,25 @@ div.max-w-prose.grid.gap-4 {
   text-align: justify;
   hyphens: auto;
   max-width: 48rem;
+  align-items: start;
 }
 
 /* At md+ breakpoint, tighten the label-to-value gap by replacing the
    fixed 200px label column with max-content (auto-fit longest label) and
    reducing the column-gap to 0.75rem. Row-gap inherits from Tailwind's
    gap-4 (1rem), keeping vertical breathing between rows. Mobile (single
-   column from grid-cols-1) is left untouched. */
+   column from grid-cols-1) is left untouched. Also tightens the label
+   line-height so its first-line cap-top aligns with the value's first-line
+   cap-top (text-2xl's default 1.333 ratio puts the larger font's cap ~2px
+   lower due to proportional ascent-above-cap; ratio 1.2 closes the gap). */
 @media (min-width: 768px) {
   div.max-w-prose.grid.gap-4 {
     grid-template-columns: max-content auto;
     column-gap: 0.75rem;
+  }
+
+  div.max-w-prose.grid.gap-4 > .font-bold.text-2xl {
+    line-height: 1.2;
   }
 }
 
