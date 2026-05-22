@@ -14,20 +14,24 @@ sections:
     content:
       username: me
     design:
-      # Hugo date format
-      date_format: 'January 2006'
+      # Hugo date format (year-only, so dates render like "2024" / "2017")
+      date_format: '2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: resume-skills
+  - block: markdown
     content:
-      title: Skills & Hobbies
-      username: me
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
+      title: 'Skills'
+      subtitle: ''
+      text: |-
+        **Programming:** Python, Matlab, C, C++, SQL
+
+        **Deep Learning:** TensorFlow, Keras, PyTorch
+
+        **ML & Data Science:** scikit-learn, Pandas, NumPy, SciPy, Matplotlib, Seaborn
+
+        **Signal Processing & Statistics:** time-series analysis, anomaly detection, estimation theory, sparse representation, predictive analytics, statistical signal processing
+
+        **Tools:** Git, LaTeX, RESTful API design, Jupyter
+    design:
+      columns: '1'
 ---

@@ -47,81 +47,72 @@ interests:
   - Audio & Speech Processing
 
 education:
-  - degree: PhD in Computer Science
+  - degree: PhD, Computer Science
     institution: University of Crete
-    #start: 2015-09-01
-    #end: 2019-06-30
+    year: 2014
+    end: 2014-12-31
     summary: |
-      "Sparse and low-rank techniques for robust speaker recognition and missing-feature reconstruction". Supervisor: Assoc. Prof. Athanasios Mouchtaris. GPA: 9.33/10.
-    button:
-      text: Download dissertation
-      url: uploads/resume.pdf #/resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MSc in Computer Science
+      Thesis: "Sparse and low-rank techniques for robust speaker recognition and missing-feature reconstruction". Supervisor: Assoc. Prof. Athanasios Mouchtaris. GPA: 9.33/10.
+  - degree: BSc, Mathematics
     institution: University of Crete
-    #start: 2013-09-01
-    #end: 2015-05-31
-    summary: |
-      Thesis: "Multichannel audio modeling and coding for immersive audio based on the sinusoidal model". Supervisor: Prof. Panagiotis Tsakalides. GPA: 9.71/10. First in class.
-  - degree: BSc in Computer Science
-    institution: University of Crete
-    #start: 2009-09-01
-    #end: 2013-05-31
-    summary: |
-      Diploma Thesis: "Musical genre classification using statistical processing methods". GPA: 8.00/10. Fifth in class.
-  - degree: BSc in Mathematics
-    institution: University of Crete
-    #start: 2008-09-01
-    #end: 2014-06-30
+    year: 2014
+    end: 2014-12-31
     summary: |
       GPA: 7.33/10.
+  - degree: MSc, Computer Science
+    institution: University of Crete
+    year: 2007
+    end: 2007-12-31
+    summary: |
+      Thesis: "Multichannel audio modeling and coding for immersive audio based on the sinusoidal model". Supervisor: Prof. Panagiotis Tsakalides. GPA: 9.71/10. First in class.
+  - degree: BSc, Computer Science
+    institution: University of Crete
+    year: 2005
+    end: 2005-12-31
+    summary: |
+      Diploma thesis: "Musical genre classification using statistical processing methods". GPA: 8.00/10.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Senior Signal Processing & AI Engineer
+    org: BreezeLabs, Switzerland
+    start: 2024-01-01
+    featured: true
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Design and develop algorithms that analyze athletes' breathing patterns from earbud-microphone audio to optimize running performance. Apply signal processing and deep learning — including audio embeddings and transformer-based models — to turn raw audio into actionable performance insights, using TensorFlow, Keras, and PyTorch.
+  - role: AI Quant
+    org: Thira LLC
+    start: 2024-01-01
+    featured: true
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-skills:
-  - name: Technical Skills
-    items:
-      - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+      Develop statistical and AI models for financial time-series analysis, generating real-time insights to support trading and investment decisions. Build, train, and evaluate trading algorithms and deploy them into scalable production systems using Python and modern ML tooling.
+  - role: AI Data Scientist (Contractor)
+    org: Oculus Technologies LLC, UAE
+    start: 2022-01-01
+    end: 2023-12-31
+    summary: |
+      Built machine learning and deep learning models for social-media trend analysis and network-traffic analysis, including event detection on Twitter and traffic-based user and mobile-device identification for platform security and profiling.
+  - role: Applied AI Research Scientist (Contractor)
+    org: Focal Point sprl, Belgium
+    start: 2021-01-01
+    end: 2022-12-31
+    summary: |
+      Led development of machine learning models for cybersecurity risk assessment in healthcare IT, translating advanced AI techniques into practical tools for identifying threats and vulnerabilities and enabling real-time, data-driven risk management.
+  - role: Research Associate
+    org: Foundation for Research & Technology – Hellas (FORTH), Greece
+    start: 2018-01-01
+    end: 2022-12-31
+    summary: |
+      Contributed to EU research projects (SEMIoTICS, CyberSANE, AI4HEALTHSEC, MARVEL) spanning IoT security, critical-infrastructure cybersecurity, AI for healthcare security, and multimodal analytics for smart cities. Developed novel detection and forecasting algorithms, applied large language models and explainable ML, and supervised bachelor's and doctoral students.
+  - role: Post-doctoral Researcher
+    org: Delft University of Technology, Netherlands
+    start: 2015-01-01
+    end: 2017-12-31
+    featured: true
+    summary: |
+      Led acoustic source localization research in collaboration with Google, designing compressive-sensing algorithms for wideband localization and separation — work that led to an invited lecture at Google's Mountain View HQ and a Google patent. Also developed a graph-theory-based room-geometry estimation method for a Huawei distributed-audio project, presented at Huawei's Munich research center.
+  - role: Research Assistant
+    org: Foundation for Research & Technology – Hellas (FORTH), Greece
+    start: 2010-01-01
+    end: 2014-12-31
+    summary: |
+      Developed signal processing algorithms for distributed sensor systems (DISFER, emergency response), invented sparse signal modeling methods for speech processing, and built multi-channel audio encoding and transmission algorithms.

@@ -39,6 +39,20 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
+      title: '💼 Selected Experience'
+      subtitle: ''
+      text: |-
+        **Senior Signal Processing & AI Engineer**, BreezeLabs (2024–Present) — audio-based AI for athletes' breathing-pattern analysis using deep learning.
+
+        **AI Quant**, Thira LLC (2024–Present) — statistical and AI models for financial time-series and real-time trading decisions.
+
+        **Post-doctoral Researcher**, TU Delft / Google collaboration (2015–2017) — acoustic source localization research that led to a Google patent.
+
+        [See full experience →](/experience/)
+    design:
+      columns: '1'
+  - block: markdown
+    content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
