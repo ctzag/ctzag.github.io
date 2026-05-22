@@ -76,4 +76,16 @@ h3[id^="card-title-"] {
 span.truncate.max-w-\[9rem\].text-sm {
   text-transform: capitalize;
 }
+
+/* Widen the /experience/ resume-experience timeline container and justify
+   the entry descriptions, matching the citation typography elsewhere on
+   the site. Scoped via the `experience-page` css_class on the
+   resume-experience block. */
+.experience-page .max-w-prose {
+  max-width: 48rem;
+}
+.experience-page .prose.max-w-none {
+  text-align: justify;
+  hyphens: auto;
+}
 </style>

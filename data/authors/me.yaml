@@ -18,7 +18,7 @@ bio: |
   Research scientist specializing in Machine Learning, Signal Processing, and Data Analysis,
   with a solid foundation in Computer Science and Applied Mathematics. Published 25+ papers
   in top-tier conferences and journals including ICASSP, EUSIPCO, and IEEE TASLP, with
-  H-index 10 and 440+ citations. Co-inventor of a Google patent on acoustic source localization.
+  H-index 10 and 470+ citations. Co-inventor of a Google patent on acoustic source localization.
 
 #affiliations:
 #  - name: Meta AI
@@ -78,7 +78,7 @@ experience:
     start: 2024-01-01
     featured: true
     summary: |
-      Design and develop algorithms that analyze athletes' breathing patterns from earbud-microphone audio to optimize running performance. Apply signal processing and deep learning — including audio embeddings and transformer-based models — to turn raw audio into actionable performance insights, using TensorFlow, Keras, and PyTorch.
+      Design and develop algorithms that analyze athletes' breathing patterns from earbud-microphone audio to optimize running performance. Apply signal processing and deep learning (including audio embeddings and transformer-based models) to turn raw audio into actionable performance insights, using TensorFlow, Keras, and PyTorch.
   - role: AI Quant
     org: Thira LLC
     start: 2024-01-01
@@ -109,7 +109,7 @@ experience:
     end: 2017-12-31
     featured: true
     summary: |
-      Led acoustic source localization research in collaboration with Google, designing compressive-sensing algorithms for wideband localization and separation — work that led to an invited lecture at Google's Mountain View HQ and a Google patent. Also developed a graph-theory-based room-geometry estimation method for a Huawei distributed-audio project, presented at Huawei's Munich research center.
+      Led acoustic source localization research in collaboration with Google, designing compressive-sensing algorithms for wideband localization and separation. This work led to an invited lecture at Google's Mountain View HQ and a Google patent. Also developed a graph-theory-based room-geometry estimation method for a Huawei distributed-audio project, presented at Huawei's Munich research center.
   - role: Research Assistant
     org: Foundation for Research & Technology – Hellas (FORTH), Greece
     start: 2010-01-01

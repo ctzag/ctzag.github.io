@@ -18,6 +18,7 @@ sections:
       date_format: '2006'
       # Education or Experience section first?
       is_education_first: false
+      css_class: 'experience-page'
   - block: markdown
     content:
       title: 'Skills'
