@@ -101,15 +101,18 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
+  - block: markdown
     id: talks
     content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
+      title: Selected Talks & Presentations
+      text: |-
+        - **"IoT challenges: Sparsity at the rescue."** Invited Talk, IBM Research, Zurich, February 2021. [Slides](/uploads/slides/talks/ibm-zurich-2021.pptx)
+        - **Invited Talk, Chrome/YouTube Research Conference.** Google, Mountain View, CA, August 2016. [Slides](/uploads/slides/talks/chrome-youtube-2016.pdf)
+        - **Poster, Spring School on Sparse Representations and Compressed Sensing.** Ilmenau, Germany, April 2016.
+        - **Poster, Google European Doctoral Workshop on Speech Technology.** London, UK, April 2014. [Poster](/uploads/slides/talks/google-london-2014.pdf)
     design:
-      view: card
+      columns: '1'
+      css_class: 'research-section'
   - block: collection
     id: news
     content:
