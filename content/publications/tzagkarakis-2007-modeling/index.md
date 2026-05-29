@@ -13,7 +13,9 @@ abstract: 'This paper focuses on high-fidelity multichannel audio coding based o
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: poster
+    url: poster_ctzag_WASPAA2007.pdf
 image:
   caption: ''
   focal_point: ''

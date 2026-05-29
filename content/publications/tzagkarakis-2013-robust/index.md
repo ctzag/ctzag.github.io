@@ -12,7 +12,9 @@ abstract: 'In this work, we examine the problem of noise robust speaker identifi
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: poster
+    url: poster_ctzag_SPARS2013.pdf
 image:
   caption: ''
   focal_point: ''

@@ -13,7 +13,9 @@ abstract: 'In this paper, the Sinusoids plus Noise Model (briefly SNM) is applie
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_EUSIPCO2008.pdf
 image:
   caption: ''
   focal_point: ''

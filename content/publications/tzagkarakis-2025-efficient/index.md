@@ -13,7 +13,9 @@ abstract: 'The exponential growth of IoT deployments introduces new challenges i
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_BalkanCom2025.pdf
 image:
   caption: ''
   focal_point: ''

@@ -13,7 +13,9 @@ abstract: 'Internet-of-Things (IoT) aims at interconnecting thousands or million
 summary: ''
 tags: []
 featured: true
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_GIoTS2019.pptx
 image:
   caption: ''
   focal_point: ''

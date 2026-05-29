@@ -12,7 +12,9 @@ abstract: 'Speaker identification is a key component in many practical applicati
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_EUSIPCO2013.pptx
 image:
   caption: ''
   focal_point: ''

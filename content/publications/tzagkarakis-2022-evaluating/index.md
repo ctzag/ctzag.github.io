@@ -15,7 +15,9 @@ abstract: 'Modern Internet of Things (IoT) environments are monitored via a larg
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_EUSIPCO2022.pdf
 image:
   caption: ''
   focal_point: ''

@@ -13,7 +13,9 @@ abstract: 'Classification of impulsive events produced from the acoustic stimula
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: poster
+    url: poster_ctzag_EUSIPCO2019.pdf
 image:
   caption: ''
   focal_point: ''

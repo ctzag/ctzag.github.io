@@ -13,7 +13,9 @@ abstract: 'This paper focuses on high-fidelity multichannel audio modeling based
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_EUSIPCO2007.pdf
 image:
   caption: ''
   focal_point: ''

@@ -12,7 +12,9 @@ abstract: 'In this paper two methods for noise-robust text-independent speaker i
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: poster
+    url: poster_ctzag_EUSIPCO2010.pdf
 image:
   caption: ''
   focal_point: ''

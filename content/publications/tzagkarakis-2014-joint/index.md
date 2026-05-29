@@ -13,7 +13,9 @@ abstract: 'Matrix completion is the process of estimating missing entries from a
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: poster
+    url: poster_ctzag_EUSIPCO2014.pdf
 image:
   caption: ''
   focal_point: ''

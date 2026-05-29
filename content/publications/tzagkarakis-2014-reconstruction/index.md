@@ -12,7 +12,9 @@ abstract: 'Reconstruction of missing features promotes robustness in speaker rec
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: slides
+    url: pres_ctzag_IISA2014.pdf
 image:
   caption: ''
   focal_point: ''
