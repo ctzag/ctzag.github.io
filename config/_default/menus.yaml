@@ -19,12 +19,3 @@ main:
   - name: Talks
     url: /#talks
     weight: 14
-  - name: News
-    url: /#news
-    weight: 15
-  - name: Projects
-    url: projects/
-    weight: 30
-  - name: Courses
-    url: courses/
-    weight: 40
