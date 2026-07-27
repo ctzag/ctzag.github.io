@@ -1,5 +1,5 @@
 ---
-title: 'AI-Driven Probabilistic Models for Robust Risk-Based Household Battery Scheduling'
+title: 'A Comparative Evaluation of Probabilistic Electricity Price Forecasting Across Market Regimes'
 authors:
   - me
   - K. Boerjan
@@ -15,9 +15,6 @@ abstract: 'Reliable probabilistic electricity price forecasting constitutes an e
 summary: ''
 tags: []
 featured: false
-links:
-  - type: slides
-    url: pres_ctzag_HELORS2025.pdf
 image:
   caption: ''
   focal_point: ''
