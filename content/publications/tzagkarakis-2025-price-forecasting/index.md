@@ -15,6 +15,9 @@ abstract: 'Reliable probabilistic electricity price forecasting constitutes an e
 summary: ''
 tags: []
 featured: false
+links:
+  - type: pdf
+    url: paper_ctzag_HELORS2025.pdf
 image:
   caption: ''
   focal_point: ''
