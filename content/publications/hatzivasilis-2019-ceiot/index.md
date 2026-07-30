@@ -17,7 +17,9 @@ abstract: 'The growth of the global middle class provokes significant increment 
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: paper_ctzag_SmaCE2019.pdf
 image:
   caption: ''
   focal_point: ''
