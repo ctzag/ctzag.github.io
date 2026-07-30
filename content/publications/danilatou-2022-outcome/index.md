@@ -17,7 +17,9 @@ abstract: 'Intensive care unit (ICU) patients with venous thromboembolism (VTE) 
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: paper_IJMS2022.pdf
 image:
   caption: ''
   focal_point: ''
