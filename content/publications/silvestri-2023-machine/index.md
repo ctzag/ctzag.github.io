@@ -15,7 +15,10 @@ abstract: 'Digitization in healthcare systems, with the wide adoption of Electro
 summary: ''
 tags: []
 featured: true
-links: []
+links:
+  - type: custom
+    name: DOI
+    url: https://doi.org/10.3390/s23020651
 image:
   caption: ''
   focal_point: ''
