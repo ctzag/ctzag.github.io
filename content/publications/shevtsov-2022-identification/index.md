@@ -14,7 +14,9 @@ abstract: 'Twitter is one of the most popular social networks attracting million
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: https://ojs.aaai.org/index.php/ICWSM/article/view/19349/19121
 image:
   caption: ''
   focal_point: ''
