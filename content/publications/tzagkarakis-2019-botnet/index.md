@@ -14,6 +14,8 @@ summary: ''
 tags: []
 featured: true
 links:
+  - type: pdf
+    url: paper_ctzag_GIoTS2019.pdf
   - type: slides
     url: pres_ctzag_GIoTS2019.pptx
 image:
