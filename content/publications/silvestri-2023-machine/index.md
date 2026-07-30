@@ -16,9 +16,8 @@ summary: ''
 tags: []
 featured: true
 links:
-  - type: custom
-    name: DOI
-    url: https://doi.org/10.3390/s23020651
+  - type: pdf
+    url: paper_Sensors2023.pdf
 image:
   caption: ''
   focal_point: ''
