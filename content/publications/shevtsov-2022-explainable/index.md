@@ -15,8 +15,7 @@ summary: ''
 tags: []
 featured: false
 links:
-  - type: custom
-    name: Journal
+  - type: pdf
     url: https://doi.org/10.1016/j.simpa.2022.100333
 image:
   caption: ''
