@@ -16,7 +16,9 @@ abstract: 'Venous thromboembolism (VTE) is the third most common cardiovascular 
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: https://eprints.bournemouth.ac.uk/34702/1/IEEE_BIBE_2020_paper_CameraReady.pdf
 image:
   caption: ''
   focal_point: ''
