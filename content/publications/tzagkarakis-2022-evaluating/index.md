@@ -16,6 +16,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: https://arxiv.org/pdf/2206.07784
   - type: slides
     url: pres_ctzag_EUSIPCO2022.pdf
 image:
