@@ -14,7 +14,10 @@ abstract: 'This study introduces a novel, reproducible and reusable Twitter bot 
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: custom
+    name: Journal
+    url: https://doi.org/10.1016/j.simpa.2022.100333
 image:
   caption: ''
   focal_point: ''
