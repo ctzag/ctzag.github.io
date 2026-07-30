@@ -14,6 +14,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: https://www.eurasip.org/Proceedings/Eusipco/eusipco2019/Proceedings/papers/1570533781.pdf
   - type: poster
     url: poster_ctzag_EUSIPCO2019.pdf
 image:
