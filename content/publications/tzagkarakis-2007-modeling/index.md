@@ -14,6 +14,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: paper_ctzag_WASPAA2007.pdf
   - type: poster
     url: poster_ctzag_WASPAA2007.pdf
 image:
