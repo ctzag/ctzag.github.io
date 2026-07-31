@@ -16,7 +16,9 @@ featured: false
 hugoblox:
   ids:
     isbn: '978-3-540-68126-7'
-links: []
+links:
+  - type: pdf
+    url: chapter_Springer2008.pdf
 image:
   caption: ''
   focal_point: ''
