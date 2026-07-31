@@ -13,6 +13,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: paper_ctzag_IISA2014.pdf
   - type: slides
     url: pres_ctzag_IISA2014.pdf
 image:
