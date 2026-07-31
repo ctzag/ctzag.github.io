@@ -13,6 +13,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: https://www.eurasip.org/Proceedings/Eusipco/Eusipco2010/Contents/papers/1569292095.pdf
   - type: poster
     url: poster_ctzag_EUSIPCO2010.pdf
 image:
