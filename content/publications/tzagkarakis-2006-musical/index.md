@@ -13,7 +13,9 @@ abstract: 'This paper describes a novel methodology for automatic musical genre 
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: paper_ctzag_ICASSP2006.pdf
 image:
   caption: ''
   focal_point: ''
