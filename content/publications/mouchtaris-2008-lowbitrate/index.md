@@ -13,9 +13,6 @@ abstract: 'In the last few years, a revolution has occurred in the area of consu
 summary: ''
 tags: []
 featured: false
-hugoblox:
-  ids:
-    isbn: '978-3-540-68126-7'
 links:
   - type: pdf
     url: chapter_Springer2008.pdf
