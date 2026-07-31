@@ -14,6 +14,8 @@ summary: ''
 tags: []
 featured: false
 links:
+  - type: pdf
+    url: paper_ctzag_EUSIPCO2008.pdf
   - type: slides
     url: pres_ctzag_EUSIPCO2008.pdf
 image:
