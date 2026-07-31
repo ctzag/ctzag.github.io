@@ -15,7 +15,9 @@ abstract: 'Compressed sensing (CS) samples signals at a much lower rate than the
 summary: ''
 tags: []
 featured: true
-links: []
+links:
+  - type: pdf
+    url: paper_TASLP2011.pdf
 image:
   caption: ''
   focal_point: ''
