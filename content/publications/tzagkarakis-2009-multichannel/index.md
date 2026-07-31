@@ -13,7 +13,9 @@ abstract: 'In this paper, a multichannel version of the sinusoids plus noise mod
 summary: ''
 tags: []
 featured: false
-links: []
+links:
+  - type: pdf
+    url: paper_ctzag_TASLP2009.pdf
 image:
   caption: ''
   focal_point: ''
