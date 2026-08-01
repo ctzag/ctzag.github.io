@@ -72,15 +72,6 @@ sections:
       columns: '1'
       css_class: 'research-section'
   - block: collection
-    id: patents
-    content:
-      title: Patents
-      filters:
-        folders:
-          - patents
-    design:
-      view: citation
-  - block: collection
     id: papers
     content:
       title: Featured Publications
@@ -99,6 +90,15 @@ sections:
         folders:
           - publications
         exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    id: patents
+    content:
+      title: Patents
+      filters:
+        folders:
+          - patents
     design:
       view: citation
   - block: markdown
