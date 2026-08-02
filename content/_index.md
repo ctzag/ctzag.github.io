@@ -48,7 +48,7 @@ sections:
 
         **Post-doctoral Researcher**, TU Delft / Google collaboration (2015–2017): acoustic source localization research that led to a Google patent.
 
-        [See full experience →](/experience/)
+        <a href="/experience/" class="btn-secondary-ct">Full experience details <span class="arrow">→</span></a> <a href="/experience/#education" class="btn-secondary-ct">Full education details <span class="arrow">→</span></a>
     design:
       columns: '1'
       css_class: 'research-section'

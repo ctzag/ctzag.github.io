@@ -103,4 +103,43 @@ section[id^="interests"] .flex,
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
+
+.btn-secondary-ct {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0.75rem 0.5rem 0;
+  padding: 0.7rem 1.5rem;
+  border: 1.5px solid #1d4ed8;
+  border-radius: 0.5rem;
+  background-color: rgba(29, 78, 216, 0.04);
+  color: #1d4ed8;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.btn-secondary-ct:hover {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn-secondary-ct .arrow { transition: transform 0.2s ease; }
+.btn-secondary-ct:hover .arrow { transform: translateX(3px); }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (!window.location.pathname.startsWith('/experience')) return;
+  var headings = document.querySelectorAll('h1, h2, h3');
+  for (var i = 0; i < headings.length; i++) {
+    if (headings[i].textContent.trim() === 'Education') {
+      headings[i].id = 'education';
+      if (window.location.hash === '#education') {
+        headings[i].scrollIntoView();
+      }
+      break;
+    }
+  }
+});
+</script>
